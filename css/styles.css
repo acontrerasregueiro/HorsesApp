@@ -1,0 +1,49 @@
+
+.centrado {
+    text-align: center;
+    font-family: 'Kalam', cursive;
+   
+}
+/*
+#inicio {
+    text-align:center;
+}*/
+
+#CardsInicio {
+    margin-top: 1%;
+}
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+#carouselExampleCaptions {
+    margin: 0 auto;
+}
+.centroo {
+    margin: 0 auto;
+}
+
+.formRegistroUsuario {
+    margin-top: 0%;
+    padding-left: 7%;
+    padding-bottom: 2%;
+    
+}
+#formularioRegistroUsuario {
+    padding-top: 5%;
+    border: 1px solid rgb(165, 164, 164); 
+    border-radius: 5px;
+    background-color: #e1e2e2;
+}
+.input-field{
+    margin-left: -3%;
+}
+
+.formRegistroBotones {
+    padding-top: 1%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+.formForgetPassword {
+    text-align: center;
+}
