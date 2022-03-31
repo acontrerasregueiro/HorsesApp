@@ -39,6 +39,10 @@ EJEMPLO NAVEGACIÓN ENTRE DIVS CON NAVBARS EN BOOTSTRAP 5
         <a class="nav-link " id="contact-tab" data-bs-toggle="tab" href="#contact" aria-controls="contact"
           aria-selected="false" style="float: right;">Contact</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link " id="admin-tab" data-bs-toggle="tab" href="#admin" aria-controls="admin"
+          aria-selected="false" style="float: right;">Administración</a>
+      </li>
 
     </ul>
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
@@ -298,6 +302,50 @@ EJEMPLO NAVEGACIÓN ENTRE DIVS CON NAVBARS EN BOOTSTRAP 5
 
                 </fieldset>
               </form>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="admin" role="tabpanel" aria-labelledby="admin-tab">ADMINISTRACIÓN           
+          <div class="row">            
+            <div class="col-3">
+                <form class="form-horizontal" method="post">
+                  <fieldset id="formularioRegistroUsuario">
+                    <legend class="text-center header"> <h5 class="text-black"> Datos usuario</h5>
+                      <button type="button" id="btnModificarUsuario" class="btn btn-outline-primary "> <i class="fa fa-edit"></i>  Editar</button>
+                </legend>
+                    <div class="form-group formRegistroUsuario">
+                      <div class="input-container ">
+                        <i class="fa fa-user col-1"></i>
+                        <input class="input-field col-10" type="text" placeholder="Nombre de usuario"
+                          name="ModificarUsername">
+                      </div>
+                    </div>
+                    <div class="form-group formRegistroUsuario">
+                      <div class="input-container">
+                        <i class="fa fa-envelope-o col-1"></i>
+                        <input class="input-field col-10" type="text" placeholder="Email" name="ModificarEmail">
+                      </div>
+                    </div>
+                    <div class="form-group formRegistroUsuario">
+                      <div class="input-container">
+                        <i class="fa-solid fa-key fa col-1"></i>
+                        <input class="input-field col-10" type="text" placeholder="Contraseña" name="ModificarPassword">
+                      </div>
+                    </div>
+                    <div class="form-group formRegistroUsuario">
+                      <div class="input-container">
+                        <i class="fa fa-solid fa-phone col-1"></i>
+                        <input class="input-field col-10" type="text" placeholder="Telefono opcional" name="ModificarTelefono">
+                      </div>
+                    </div>
+                    <div class="form-group formRegistroBotones">
+                      <button type="button" id= "btnModificarUsuarioCancelar"class="btn btn-outline-dark "> <i class="fa fa-times" aria-hidden="true"></i>  Cancelar</button>
+                      <button type="button" id="btnModificarUsuarioAceptar" class="btn btn-outline-primary "> <i class="fa fa-save"></i>  Aceptar</button>
+                  </div>
+                 
+            </div>
+            <div class="col-9 form-group formRegistroBotones">
+              <H5>COMPETICIONES</H5>
             </div>
           </div>
         </div>
