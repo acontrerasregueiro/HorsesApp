@@ -47,3 +47,24 @@
 .formForgetPassword {
     text-align: center;
 }
+.formCompeticiones {
+    /* padding-top: 5%; */
+    border: 1px solid rgb(179, 179, 179); 
+    border-radius: 5px;
+    background-color: #e1e2e2;
+}
+.titleCompeticiones {
+    margin-top: 1%;
+    text-align: center;
+}
+#btnAnadirCompeticion {
+    float: right;
+}
+.rowCompeticiones {
+    max-height: 25%;
+}
+
+.tableCompeticiones {
+    max-height: 15%;
+        overflow-y:scroll;
+}
